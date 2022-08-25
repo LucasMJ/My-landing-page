@@ -1,0 +1,994 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Quicksand:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+  margin: 0;
+}
+
+body{ 
+  overflow-x: hidden;
+  margin-left: 20px;
+}
+
+header{
+  position: relative;
+  margin-left: 70px;
+}
+
+header .logo-div{
+  display: flex;
+  position: relative;
+  top: 44px;
+  left: 155px;
+}
+
+header .logo-div .icon-logo #icon-logo{
+  margin-right: 14px;
+  position: relative;
+  top: 8px;
+}
+
+header .logo-div .logo{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+}
+
+header .list-div{
+  position: relative;
+  bottom: 22px;
+  margin-left: 420px;
+}
+
+header .list-div ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 40px;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+header .list-div ul li a{
+  text-decoration: none;
+  color: #000;
+}
+
+header .buttons-div #btn-1{
+  text-decoration: none;
+  color: #16133D;
+  border: 2px solid #16133D;
+  padding: 10px;
+  width: 100px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-style: medium;
+  font-weight: 500;
+  font-size: 16px;
+  left: 1050px;
+  top: 49px;
+  display: block;
+  position: absolute;
+}
+
+header .buttons-div #btn-2{
+  text-decoration: none;
+  color: #fff;
+  background-color: #16133D;
+  border: 2px solid #16133D;
+  padding: 10px;
+  width: 100px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-style: medium;
+  font-weight: normal;
+  font-size: 16px;
+  left: 1190px;
+  top: 49px;
+  display: block;
+  position: absolute;
+}
+
+header .buttons-div #btn-2:hover{
+  background-color: #16135D;
+  transition: .5s;
+}
+
+
+header .buttons-div #btn-1:hover{
+  background-color: #16133D;
+  color: #EFEEF3;
+  transition: .5s;
+}
+
+
+.divider-header{
+  position: absolute;
+width: 1155px;
+height: 0px;
+left: 157px;
+top: 150px;
+
+/* 1 */
+
+border: 1px solid #EFEEF3;
+}
+
+main .text-div{
+  margin-top: 80px;
+  margin-left: 228px;
+}
+
+main .text-div h1{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  line-height: 68px;
+  font-size: 56px;
+  letter-spacing: 0.2px;
+}
+
+main .text-div p{
+  margin-top: 20px;
+  color: #183B56;
+  font-family: 'Roboto' ,sans-serif;
+font-size: 19px;
+font-weight: 400;
+line-height: 36px;
+}
+
+main .img-div{
+  position: absolute;
+  top: 220px;
+  display: flex;
+  margin-left: 810px;
+}
+
+main .img-div .change-img{
+  position: absolute;
+  top: 180px;
+  left: -30px;
+}
+
+main .img-div .change-img:hover{
+  cursor: pointer;
+}
+
+main .img-div .change-img p{
+  position: absolute;
+  margin-top: -40px;
+  margin-left: 25px;
+  color: #fff;
+}
+
+main .img-div .change-img-1{
+  position: absolute;
+  top: 177px;
+  left: 548px;
+}
+
+main .img-div .change-img-1:hover{
+  cursor: pointer;
+}
+
+main .img-div .change-img-1 p{
+  position: absolute; 
+  top: 20px; 
+  left: 23px; 
+  color: #fff;
+}
+
+main .buttons-div-2{
+  position: absolute;
+  margin-left: 228px;
+  margin-top: 37px;
+}
+
+main .buttons-div-2 #btn-1{
+  text-decoration: none;
+  color: #fff;
+  background-color: #007FFC;
+  border: 2px solid #007FFC;
+  padding: 10px;
+  width: 150px;
+  margin-top: 20px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  left: 0;
+  top: -30px;
+  display: block;
+  position: absolute;
+}
+
+main .buttons-div-2 #btn-2{
+  position: absolute;
+  white-space: pre;
+  left: 200px;
+  text-decoration: none;
+  color: #007FFC;
+  width: 150px;
+  padding: 10px;
+  height: 24px;
+  align-items: center;
+  text-align: center;
+  border: 2px solid #007FFC;
+  top: -10px;
+  border-radius: 8px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  display: block;
+}
+
+main .buttons-div-2 #btn-2:hover{
+  background-color: #007FFC;
+  color: #fff;
+  transition: .5s;
+}
+
+main .buttons-div-2 #btn-1:hover{
+  background-color: #008FFC;
+  border: 2px solid #008FFC;
+  transition: .5s;
+}
+
+main .services .text-div-services{
+  margin-top: 360px;
+  margin-left: 228px;
+}
+
+main .services .text-div-services #service{
+  margin-bottom: 17px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7690A8;
+}
+
+main .services .text-div-services h1{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #16133D;
+  margin-bottom: 6px;
+}
+
+main .services .text-div-services #lorem{
+  color: #16133D;
+  font-family: 'Roboto',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+main .services .cards-div .card-1{
+  width: 360px;
+  height: 360px;
+  border: 1px solid #E5EAF4;
+  border-radius: 16px;
+  margin-left: 228px;
+  margin-top: 61px;
+}
+
+main .services .cards-div .card-1 #icon-card-1{
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid #1565D81A;
+  margin-bottom: 28px;
+}
+
+main .services .cards-div .card-1 h2{
+  margin-bottom: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #16133D;
+}
+
+main .services .cards-div .card-1 p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #16133D;
+  line-height: 28px;
+  margin-bottom: 29px;
+}
+
+main .services .cards-div .card-1 a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #16133D;
+}
+
+
+main .services .cards-div .content-card{
+  margin-left: 41px;
+  margin-top: 41px;
+}
+
+main .services .cards-div .card-2{
+  width: 360px;
+  height: 360px;
+  border: 1px solid #E5EAF4;
+  border-radius: 16px;
+  margin-left: 645px;
+  margin-top: -360px;
+}
+main .services .cards-div .card-2 h2{
+  margin-bottom: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #16133D;
+} 
+
+main .services .cards-div .card-2 #icon-card-2{
+  padding: 10px;
+  border-radius: 16px;
+  border: 1px solid #1565D81A;
+  margin-bottom: 28px;
+}
+
+main .services .cards-div .card-2 p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #16133D;
+  line-height: 28px;
+  margin-bottom: 29px;
+}
+
+main .services .cards-div .card-2 a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #16133D;
+}
+
+main .services .cards-div .card-3{
+  width: 360px;
+  height: 360px;
+  border: 1px solid #E5EAF4;
+  border-radius: 16px;
+  margin-left: 1061px;
+  margin-top: -360px;
+}
+
+main .services .cards-div .card-3 h2{
+  margin-bottom: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #16133D;
+}
+
+main .services .cards-div .card-3 #icon-card-3{
+  padding: 12px;
+  border-radius: 16px;
+  border: 1px solid #1565D81A;
+  margin-bottom: 28px;
+}
+
+main .services .cards-div .card-3 p{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #16133D;
+  line-height: 28px;
+  margin-bottom: 29px;
+}
+
+main .services .cards-div .card-3 a{
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #16133D;
+}
+
+main .tips{
+  margin-bottom: 221px;
+}
+
+main .tips .text-div-tips{
+  margin-left: 228px;
+}
+
+
+main .tips .text-div-tips #tips{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7690A8;
+  margin-bottom: 17px;
+  margin-top: 200px;
+}
+
+main .tips .text-div-tips h1{
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 7px;
+}
+
+main .tips .text-div-tips #lorem{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7690A8;
+  margin-bottom: 86px;
+}
+
+main .tips .content-img #img-tips-1{
+  margin-right: 49px;
+  margin-left: 228px;
+}
+
+main .tips .content-img #text-tips-1{
+  position: absolute;
+  color: #fff;
+  top: 2164px;
+  margin-left: 276px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+}
+
+main .tips .content-img #text-tips-2{
+  position: absolute;
+  color: #fff;
+  top: 2164px;
+  margin-left: 894px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 36px;
+  line-height: 48px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+main .plan{
+  margin-left: 228px;
+}
+
+main .plan .text-div-plan h1{
+  font-family: 'Nunito Sans';
+  font-weight: 600;
+  font-size: 40px;
+  margin-bottom: 7px;
+}
+
+main .plan .text-div-plan p{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  color: #5A7184;
+  margin-bottom: 84px;
+}
+
+main .plan .cards-plan-div .card-plan-1 {
+  width: 360px;
+  height: 436px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+border-radius: 8px;
+}
+
+#line-1{
+  background-color: #007FFC;
+  position: absolute;
+  width: 360px;
+  height: 3px;
+}
+
+main .plan .cards-plan-div .card-plan-1 h2{
+  position: relative;
+  top: 50px;
+  margin-top: 145px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 81px;
+  color: #16133D;
+}
+
+main .plan .cards-plan-div .card-plan-1 h1{
+  color: #007FFC;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 64px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+main .plan .cards-plan-div .card-plan-1 #month{
+  color: #5A7184;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+main .plan .cards-plan-div .card-plan-1 #lorem{
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #7690A8;
+  margin-bottom: 56px;
+}
+
+main .plan .cards-plan-div .card-plan-1 #btn{
+  position: relative;
+  margin-left: 135px;
+  text-decoration: none;
+  color: #16133D;
+  border: 2px solid #16133D;
+  padding: px;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  top: 1px;
+  margin-top: 1px;
+  vertical-align: middle;
+  float: left;
+  line-height: 2.3;
+  left: -26px;
+}
+
+main .plan .cards-plan-div .card-plan-2 {
+  width: 360px;
+  height: 436px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.03);
+border-radius: 8px;
+margin-left: 407px;
+margin-top: -580px;
+}
+
+#line-2{
+  background-color: #52C29D;
+  position: absolute;
+  width: 360px;
+  height: 3px;
+}
+
+main .plan .cards-plan-div .card-plan-2 h2{
+  position: relative;
+  top: 50px;
+  margin-top: 145px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 81px;
+  color: #16133D;
+}
+
+main .plan .cards-plan-div .card-plan-2 h1{
+  color: #52C29D;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 64px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+main .plan .cards-plan-div .card-plan-2 #month{
+  color: #5A7184;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+main .plan .cards-plan-div .card-plan-2 #lorem{
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #7690A8;
+  margin-bottom: 56px;
+}
+
+main .plan .cards-plan-div .card-plan-2 #btn{
+  position: relative;
+  margin-left: 135px;
+  text-decoration: none;
+  color: #16133D;
+  border: 2px solid #16133D;
+  padding: px;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  top: 1px;
+  margin-top: 1px;
+  vertical-align: middle;
+  float: left;
+  line-height: 2.3;
+  left: -26px;
+}
+
+main .plan .cards-plan-div .card-plan-3 {
+  width: 360px;
+  height: 436px;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 35px rgb(0 0 0 / 3%);
+  border-radius: 8px;
+  margin-left: 811px;
+  margin-top: -580px;
+}
+
+#line-3{
+  background-color: #F04D5D;
+  position: absolute;
+  width: 360px;
+  height: 3px;
+}
+
+main .plan .cards-plan-div .card-plan-3 h2{
+  position: relative;
+  top: 50px;
+  margin-top: 145px;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 81px;
+  color: #16133D;
+}
+
+main .plan .cards-plan-div .card-plan-3 h1{
+  color: #F04D5D;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 64px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+main .plan .cards-plan-div .card-plan-3 #month{
+  color: #5A7184;
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 35px;
+}
+
+main .plan .cards-plan-div .card-plan-3 #lorem{
+  text-align: center;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #7690A8;
+  margin-bottom: 56px;
+}
+
+main .plan .cards-plan-div .card-plan-3 #btn{
+  position: relative;
+  margin-left: 135px;
+  text-decoration: none;
+  color: #16133D;
+  border: 2px solid #16133D;
+  padding: px;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  top: 1px;
+  margin-top: 1px;
+  vertical-align: middle;
+  float: left;
+  line-height: 2.3;
+  left: -26px;
+}
+
+main .plan .cards-plan-div .card-plan-3 #btn:hover{
+  background-color: #16133D;
+  color: #fff;
+  transition: .3s;
+}
+
+main .plan .cards-plan-div .card-plan-2 #btn:hover{
+  background-color: #16133D;
+  color: #fff;
+  transition: .3s;
+}
+
+main .plan .cards-plan-div .card-plan-1 #btn:hover{
+  background-color: #16133D;
+  color: #fff;
+  transition: .3s;
+}
+
+main .trial{
+  margin-top: 200px;
+  margin-bottom: 250px;
+}
+
+main .trial .text-div-trial{
+  position: absolute;
+  margin-left: 455px;
+  margin-top: 97px;
+}
+
+main .trial .text-div-trial h1{
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  margin-bottom: 19px;
+  line-height: 52px;
+  margin-left: 23px;
+}
+
+main .trial .text-div-trial p{
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+  margin-left: 38px;
+  line-height: 32px;
+  margin-bottom: 48px;
+}
+
+main .trial .img-div-trial #img-trial{
+  margin-left: 228px;
+  border-radius: 16px;
+}
+
+main .trial .text-div-trial #btn-1{
+  position: relative;
+  margin-left: 244px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  width: 150px;
+  height: 40px;
+  place-items: center;
+  text-align: center;
+  justify-content: center;
+  top: 1px;
+  margin-top: 1px;
+  vertical-align: middle;
+  float: left;
+  line-height: 2.5;
+  left: -26px;
+}
+
+
+main .trial .text-div-trial #btn-2{
+  position: relative;
+  margin-left: 19px;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: px;
+  border-radius: 50px;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 400;
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  top: 1px;
+  margin-top: 1px;
+  vertical-align: middle;
+  float: left;
+  line-height: 2.5;
+  left: -26px;
+}
+
+main .trial .text-div-trial #btn-2:hover{
+  background-color: #fff;
+  color: #000;
+  transition: .3s;
+}
+
+footer{
+  position: absolute;
+width: 1940px;
+height: 768px;
+left: 0px;
+top: 3943px;
+color: #fff;
+/* 6 */
+
+background: #16133D;
+border-radius: 0px;
+}
+
+footer .text-div-footer .logo-div-footer{
+  margin-top: 90px;
+}
+
+footer .text-div-footer .logo-div-footer h1{
+  margin-top: -70 px;
+  margin-left: 250px;
+  font-family: 'Quicksand';
+  font-weight: 400;
+  font-size: 35px;
+}
+
+footer .text-div-footer .logo-div-footer #icon-logo{
+  left: 209px;
+  position: absolute;
+  top: 98px;
+}
+
+footer .text-div-footer .text{
+  margin-top: 40px;
+  margin-left: 209px;
+}
+
+footer .text-div-footer .text p{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
+
+footer .text-div-footer .social-medias{
+  margin-top: 58px;
+  margin-left: 209px;
+}
+
+footer .text-div-footer .list-services{
+  margin-left: 790px;
+  top: 100px;
+  position: absolute;
+}
+
+footer .text-div-footer .list-services h2{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 17px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+
+footer .text-div-footer .list-services ul li{
+  list-style: none;
+  display: grid;
+  margin: 25px;
+}
+
+footer .text-div-footer .list-services ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  position: relative;
+  left: -60px;
+}
+
+footer .text-div-footer .list-company{
+  margin-left: 1050px;
+  top: 100px;
+  position: absolute;
+}
+
+footer .text-div-footer .list-company h2{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+
+footer .text-div-footer .list-company ul li{
+  list-style: none;
+  display: grid;
+  margin: 25px;
+}
+
+footer .text-div-footer .list-company ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 15px;
+  position: relative;
+  left: -60px;
+}
+
+footer .text-div-footer .contact{
+  margin-left: 1320px;
+  top: 100px;
+  position: absolute;
+}
+
+footer .text-div-footer .contact h2{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 2px;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+
+footer .text-div-footer .contact p{
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 19px;
+}
+
+footer .text-div-footer .contact h1{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 29px;
+  margin-bottom: 28px;
+}
+
+footer .text-div-footer .contact #star{
+  position: relative;
+  top: -10px;
+  margin-left: 20px;
+}
+
+footer .text-div-footer .copyright{
+  position: relative;
+  top: 325px;
+  margin-left: 738px;
+}
+
+footer .text-div-footer .copyright h3{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+}
